@@ -1,0 +1,29 @@
+body {
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    justify-content: center; /*To center items along the main axis, you use the Flexbox*/
+    align-items: center; /*To center items along the cross axis, you use the Flexbox property*/
+    background: azure;
+}
+
+.youtube-logo {
+    background-color: firebrick;
+    width: 300px;
+    height: 200px;
+    border-radius: 50px; /*To make all edges the same*/
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.playBtn {
+    width: 0; /*To create a triangle*/
+    height: 0; /*To create a triangle*/
+    border-top: 60px solid transparent;
+    border-bottom: 60px solid transparent;
+    border-left: 120px solid white;
+} /*how can we create a triangle if the div has zero width and height? The answer is the size of 
+the triangle is determined by the width of the border.*/
+
